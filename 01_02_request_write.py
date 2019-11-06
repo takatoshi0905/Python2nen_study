@@ -23,7 +23,7 @@ file_name = "download.txt"
 # # ファイルを閉じる
 # f.close()
 
-# ファイルを開いて、書き込んで、閉じるの処理を一度に行う処理
+# ファイルを開いて、書き込んで、閉じるの処理を一度に行う処理。
 # こっちだと閉じ忘れのエラーを防ぐことができる。
 with open(file_name, mode="w") as f:
     f.write(response.text)
