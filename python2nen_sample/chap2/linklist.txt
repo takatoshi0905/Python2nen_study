@@ -1,6 +1,0 @@
-リンク1
-https://www.ymori.com/books/python2nen/test1.html
-
-リンク2
-https://www.ymori.com/books/python2nen/test3.html
-
