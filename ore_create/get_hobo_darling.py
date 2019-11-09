@@ -21,6 +21,6 @@ filename = "ore_create/" + "今日のダーリン" + "{0:%y%m%d}".format(now_dt)
 # ファイル書き込みモードで開く
 # classで検索し、その中のすべてのpタグを検索して表示する
 with open(filename, "w") as f:
-    f.write("今日のダーリン")
+    f.write("{0:%y%m%d}".format(now_dt) + "今日のダーリン")
     for element in topic_1101.find_all("p"):
-        f.write("\n" + element.text)
+        f.write("\n\n" + element.text)
